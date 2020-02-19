@@ -1,0 +1,23 @@
+{
+  "name": "test_pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MityaDV/test_pug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MityaDV/test_pug/issues"
+  },
+  "homepage": "https://github.com/MityaDV/test_pug#readme",
+  "devDependencies": {
+    "pug": "^2.0.4"
+  }
+}

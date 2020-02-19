@@ -1,0 +1,16 @@
+mixin navLink(link, name)
+  li
+    a(href=link).nav-link=name
+
+header
+  .header
+    ul.nav
+      li
+        a(href="#").nav-link 1
+      li
+        a(href="#").nav-link 2
+      li
+        a(href="#").nav-link 3
+      li
+        a(href="#").nav-link 4
+      +navLink('#,', 'меня добавил mixin')
